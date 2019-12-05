@@ -6,7 +6,7 @@ export class Home extends Component {
     return (
       <div className="container home">
         <h1 class="center "><img src={IMG_3226} width="250" height="250" alt="Me"/></h1>
-        <h1 class="center">Welcome!</h1>
+        <h3 class="center light-blue-text thin">Full Stack Web Developer</h3>
       </div>
     )
   }

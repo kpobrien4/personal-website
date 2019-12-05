@@ -9,7 +9,7 @@ export class Nav extends Component {
         <div className="container">
           <Link to="/" className="brand-logo"><i class="material-icons ">home</i></Link>
           <ul className="right">
-            <li><Link to="/">About</Link></li>
+            <li><Link to="/about">About</Link></li>
             <li><Link to="/">Projects</Link></li>
             <li><a href = {Pdf}>Resume</a></li>
             <li><a href = "https://kpobrien4.github.io/">Blog</a></li>
