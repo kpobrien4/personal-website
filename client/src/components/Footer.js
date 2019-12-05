@@ -6,7 +6,8 @@ import glogo from '../glogo.png'
 export class Footer extends Component {
   render() {
     return (
-        <footer class="page-footer light-blue darken-1">
+        <footer class="page-footer white">
+            <hr></hr>
         <div class="container center">
           <div class="row">
             <div class="col l6 s12">
