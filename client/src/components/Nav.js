@@ -13,7 +13,8 @@ export class Nav extends Component {
             <li><Link to="/projects">Projects</Link></li>
             <li><a href = {Pdf}>Resume</a></li>
             <li><a href = "https://kpobrien4.github.io/">Blog</a></li>
-            <li><Link to="/">Contact</Link></li>
+            <li><Link to="/music">Music</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
           </ul>
         </div>
       </nav>
