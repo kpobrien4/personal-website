@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
+import Pdf from '../KOBRES.pdf'
 
 export class Nav extends Component {
   render() {
@@ -10,7 +11,7 @@ export class Nav extends Component {
           <ul className="right">
             <li><Link to="/">About</Link></li>
             <li><Link to="/">Projects</Link></li>
-            <li><Link to="/">Resume</Link></li>
+            <li><a href = {Pdf}>Resume</a></li>
             <li><Link to="/">Contact</Link></li>
           </ul>
         </div>
