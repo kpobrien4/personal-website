@@ -5,13 +5,14 @@ import Pdf from '../KOBRES.pdf'
 export class Nav extends Component {
   render() {
     return (
-      <nav className="light-blue darken-1">
+      <nav class="light-blue darken-1 hoverable" >
         <div className="container">
-          <Link to="/" className="brand-logo">Home</Link>
+          <Link to="/" className="brand-logo"><i class="material-icons ">home</i></Link>
           <ul className="right">
             <li><Link to="/">About</Link></li>
             <li><Link to="/">Projects</Link></li>
             <li><a href = {Pdf}>Resume</a></li>
+            <li><a href = "https://kpobrien4.github.io/">Blog</a></li>
             <li><Link to="/">Contact</Link></li>
           </ul>
         </div>
