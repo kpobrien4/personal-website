@@ -1,0 +1,19 @@
+{
+  "name": "personal-website",
+  "license": "MIT",
+  "engines": {
+    "node": "12.10.0",
+    "yarn": "1.19.1"
+  },
+  "scripts": {
+    "build": "yarn --cwd client install && yarn --cwd client build",
+    "deploy": "cp -a client/build/. public/",
+    "heroku-postbuild": "yarn build && yarn deploy"
+  },
+  "dependencies": {
+    "react-redux": "^7.1.3",
+    "react-router-dom": "^5.1.2",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0"
+  }
+}
