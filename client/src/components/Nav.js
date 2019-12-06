@@ -5,6 +5,7 @@ import Pdf from '../KOBRES.pdf'
 export class Nav extends Component {
   render() {
     return (
+      <div class="navbar-fixed">
       <nav class="white hoverable" >
         <div className="container">
           <Link to="/" class="brand-logo thin black-text">Kevin O'Brien</Link>
@@ -18,6 +19,7 @@ export class Nav extends Component {
           </ul>
         </div>
       </nav>
+      </div>
     )
   }
 }
