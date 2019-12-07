@@ -4,6 +4,7 @@
     object-fit: cover;
     border-radius: 15px;
     text-align:center;
+    box-shadow: 1px 1px 5px black;
 
 }
 
@@ -22,4 +23,8 @@
     flex: 25%;
     max-width: 25%;
     padding: 0 16px;
+  }
+
+  p {
+      color: black
   }
