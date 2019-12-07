@@ -5,7 +5,7 @@ import USER_ID from '../USER_ID.js'
 import TEMPLATE_ID from '../TEMPLATE_ID.js'
 
 
-import { Button, FormFeedback, Form, FormGroup, Label, Input } from 'reactstrap'
+import { Form, FormGroup, Label, Input } from 'reactstrap'
 class Contact extends Component {
   state = {
     name: '',
@@ -23,10 +23,10 @@ handleSubmit(e) {
       message_html: message,
      }
      emailjs.send(
-      'gmail',
-       TEMPLATE_ID,
-       templateParams,
-       USER_ID
+    //   'gmail',
+    //    TEMPLATE_ID,
+    //    templateParams,
+    //    USER_ID
      )
      this.resetForm()
  }
@@ -44,7 +44,7 @@ handleChange = (param, e) => {
 render() {
     return (
       <>
-          <h1 className="p-heading1">Get in Touch</h1>
+          <h3 className="p-heading1" class="thin">Get in Touch</h3>
           <Form onSubmit={this.handleSubmit.bind(this)}>
             <FormGroup controlId="formBasicEmail">
               <Label className="text-muted">Email address</Label>
@@ -89,9 +89,9 @@ render() {
                 onChange={this.handleChange.bind(this, 'message')}
               />
             </FormGroup>
-<Button variant="primary" type="submit">
+<button type="submit" class="waves-effect waves-light btn black">
               Submit
-            </Button>
+            </button>
           </Form>
       </>
     )
