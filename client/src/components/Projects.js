@@ -8,7 +8,9 @@ import { Link } from 'react-router-dom';
 
 export class Projects extends Component {
 
-
+    forceUpdateHandler(){
+        this.forceUpdate();
+      };
 
   render() {
     return (
