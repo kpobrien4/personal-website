@@ -7,6 +7,9 @@ import '../projects.css'
 import { Link } from 'react-router-dom';
 
 export class Projects extends Component {
+
+
+
   render() {
     return (
     <div>
@@ -16,7 +19,7 @@ export class Projects extends Component {
         <Link to="/projects/symbiosound">
              <div class="column">
             <div class="project">
-            <img class="project" src={SymbioSound} alt="SymbioSound"/>
+            <img class="project hoverable" src={SymbioSound} alt="SymbioSound"/>
             <p class="center thin">SymbioSound</p>
             </div>
         </div>
@@ -25,7 +28,7 @@ export class Projects extends Component {
         <div>
         <div class="column">
             <div class="project">
-            <img class="project" src={TrackNotes} alt="TrackNotes"/>
+            <img class="project hoverable" src={TrackNotes} alt="TrackNotes"/>
             <p class="center thin">TrackNotes</p>
             </div>
             </div>
@@ -35,7 +38,7 @@ export class Projects extends Component {
         <div>
         <div class="column">
             <div class="project">
-            <img class="project" src={EquationSheetGenerator} alt="Equation Sheet Generator"/>
+            <img class="project hoverable" src={EquationSheetGenerator} alt="Equation Sheet Generator"/>
             <p class="center thin">Equation Sheet Generator</p>
             </div>
             </div>
@@ -45,7 +48,7 @@ export class Projects extends Component {
         <div>
         <div class="column">
             <div class="project">
-            <img class="project" src={CharityRoulette} alt="Charity Roulette"/>
+            <img class="project hoverable" src={CharityRoulette} alt="Charity Roulette"/>
             <p class="center thin">Charity Roulette</p>
             </div>
             </div>
@@ -57,7 +60,7 @@ export class Projects extends Component {
 <br></br>
 <br></br>
 
-        <h4 class="thin">Data Analysis/Physics Projects</h4>
+        <h4 class="thin">Data Analysis/Physics Projects:</h4>
         <ul>
             <li>Pulsed NMR</li>
             <li>Hall Effect</li>
