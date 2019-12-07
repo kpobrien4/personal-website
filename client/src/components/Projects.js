@@ -7,6 +7,10 @@ import '../projects.css'
 import { Link } from 'react-router-dom';
 
 export class Projects extends Component {
+    constructor(){
+        super();
+        this.forceUpdateHandler = this.forceUpdateHandler.bind(this);
+      };
 
     forceUpdateHandler(){
         this.forceUpdate();
