@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import IMG_3226 from '../IMG_3226.PNG'
+import IMG_3226 from '../images/IMG_3226.PNG'
 import Quotes from '../containers/Quotes'
 
 
