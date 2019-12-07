@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import llogo from '../llogo.png'
-import glogo from '../glogo.png'
+import llogo from '../images/llogo.png'
+import glogo from '../images/glogo.png'
 
 
 export class Footer extends Component {
