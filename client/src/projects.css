@@ -22,7 +22,7 @@
   .column {
     flex: 25%;
     max-width: 25%;
-    padding: 0 16px;
+    padding: 20px 16px;
   }
 
   p {

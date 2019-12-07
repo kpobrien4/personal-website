@@ -62,6 +62,9 @@ export class Projects extends Component {
         </div>
         </Link>
     </div>
+    <div class="row">
+
+    </div>
 
 <br></br>
 <br></br>
