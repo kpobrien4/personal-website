@@ -8,13 +8,13 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Music from './components/Music'
 import './App.css';
-
+import { HashRouter } from 'react-router-dom';
 
 
 class App extends Component {
   render(){
   return (
-    <Router>
+    <HashRouter>
       <Nav />
       <div className="container">
         <Switch>
@@ -30,7 +30,7 @@ class App extends Component {
       <br></br>
       <br></br>
       <Footer />
-    </Router>
+    </HashRouter>
   );
   }
 }
