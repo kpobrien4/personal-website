@@ -17,7 +17,7 @@ export class Footer extends Component {
             </div>
             <div class="col l6 s12">
               <ul>
-                <li><a href="https://github.com/kpobrien4"><img src={glogo} width="75" height="75"/></a></li>
+                <li><a href="https://github.com/kpobrien4"><img src={glogo} width="75" height="75" alt="github"/></a></li>
               </ul>
             </div>
           </div>
