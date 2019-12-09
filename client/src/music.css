@@ -2,3 +2,7 @@
     width: 66%;
     float: left;
 }
+
+.list {
+    list-style-type: circle !important
+}
