@@ -8,7 +8,7 @@ export class Nav extends Component {
 
   render() {
     return (
-      <div class="navbar-fixed">
+      <div class="navbar-fixed desktop-only">
       <nav class="white hoverable">
         <div className="container">
           <Link to="/" class="brand-logo thin black-text">Kevin O'Brien</Link>
