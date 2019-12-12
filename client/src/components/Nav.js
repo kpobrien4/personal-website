@@ -30,6 +30,9 @@ componentDidMount(){
           </ul>
         </div>
       </nav>
+      <br></br>
+      <br></br>
+      <br></br>
       <ul class="sidenav" id="mobile-demo">
       <li><Link to="/about" class="thin black-text">About</Link></li>
             <li><Link to="/projects" class="thin black-text">Projects</Link></li>
