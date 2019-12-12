@@ -8,7 +8,7 @@ import "materialize-css/dist/css/materialize.min.css";
 export class Nav extends Component {
 componentDidMount(){
   document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.sidenav');
+    var elems = document.querySelector('.sidenav');
     var instances = M.Sidenav.init(elems, {
       edge: "left",
       inDuration: 250});
@@ -32,9 +32,8 @@ componentDidMount(){
           </ul>
         </div>
       </nav>
-      <br></br>
-      <br></br>
-      <br></br>
+
+      <div>
       <ul class="sidenav" id="slide-out">
             <li><Link to="/about" class="thin black-text">About</Link></li>
             <li><Link to="/projects" class="thin black-text">Projects</Link></li>
@@ -43,6 +42,7 @@ componentDidMount(){
             <li><Link to="/music" class="thin black-text">Music</Link></li>
             <li><Link to="/contact" class="thin black-text">Contact</Link></li>
       </ul>
+      </div>
        </div>
 
     )
