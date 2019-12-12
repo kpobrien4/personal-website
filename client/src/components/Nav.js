@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import M from "materialize-css/dist/js/materialize.min.js";
 import Pdf from '../KOBRES.pdf'
+import "materialize-css/dist/css/materialize.min.css";
 
 
 export class Nav extends Component {
@@ -32,8 +33,7 @@ componentDidMount(){
       </nav>
       <br></br>
       <br></br>
-      <br></br>
-      <ul class="sidenav" id="mobile-demo">
+      <ul class="sidenav" id="slide-out">
       <li><Link to="/about" class="thin black-text">About</Link></li>
             <li><Link to="/projects" class="thin black-text">Projects</Link></li>
             <li><a href = {Pdf} target="_blank" rel="noopener noreferrer" class="thin black-text">Resume</a></li>
