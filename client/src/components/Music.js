@@ -27,16 +27,6 @@ export class Music extends Component {
         <li>Yamaha P45 Digital Piano</li>
 
     </ul>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        
       </div>
 
     )
