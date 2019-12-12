@@ -16,6 +16,7 @@ class App extends Component {
   return (
     <HashRouter hashType="noslash">
       <Nav />
+      <Sidenav />
       <div className="container">
         <Switch>
           <Route exact path="/" component={Home} />
