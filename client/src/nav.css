@@ -1,5 +1,10 @@
-#desktop-only {
-    @media (max-width: 767px){
-     display: none;
-   }
- }
+@media screen and (max-width: 600px) {
+    .desktop-only {
+      visibility: hidden;
+      clear: both;
+      float: left;
+      margin: 10px auto 5px 20px;
+      width: 28%;
+      display: none;
+    }
+  }
