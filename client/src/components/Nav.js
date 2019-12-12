@@ -1,14 +1,26 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
+import M from "materialize-css/dist/js/materialize.min.js";
 import Pdf from '../KOBRES.pdf'
 
+
 export class Nav extends Component {
+componentDidMount(){
+  document.addEventListener('DOMContentLoaded', function() {
+    let elems = document.querySelectorAll('.sidenav');
+    let instances = M.Sidenav.init(elems, {
+      edge: "left",
+      inDuration: 250});
+  });
+}
+
   render() {
     return (
       <div class="navbar-fixed">
       <nav class="white hoverable" >
         <div className="container">
           <Link to="/" class="brand-logo thin black-text">Kevin O'Brien</Link>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul className="right">
             <li><Link to="/about" class="thin black-text">About</Link></li>
             <li><Link to="/projects" class="thin black-text">Projects</Link></li>
