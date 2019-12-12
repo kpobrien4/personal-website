@@ -26,7 +26,7 @@ componentDidMount(){
             <li><a href = {Pdf} target="_blank" rel="noopener noreferrer" class="thin black-text sidenav-close">Resume</a></li>
             <li><a href = "https://kpobrien4.github.io/" target="_blank" rel="noopener noreferrer" class="thin black-text sidenav-close">Blog</a></li>
             <li><Link to="/music" class="thin black-text sidenav-close">Music</Link></li>
-            <li><Link to="/contact" class="thin black-text ">Contact</Link></li>
+            <li><Link to="/contact" class="thin black-text sidenav-close">Contact</Link></li>
       </ul>
       
       </div>
