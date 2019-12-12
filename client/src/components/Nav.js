@@ -8,8 +8,8 @@ import "materialize-css/dist/css/materialize.min.css";
 export class Nav extends Component {
 componentDidMount(){
   document.addEventListener('DOMContentLoaded', function() {
-    let elems = document.querySelectorAll('.sidenav');
-    let instances = M.Sidenav.init(elems, {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, {
       edge: "left",
       inDuration: 250});
   });
@@ -21,6 +21,7 @@ componentDidMount(){
       <nav class="white hoverable" >
         <div className="container">
           <Link to="/" class="brand-logo thin black-text">Kevin O'Brien</Link>
+          <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons black-text">menu</i></a>
           <ul className="right">
             <li><Link to="/about" class="thin black-text">About</Link></li>
             <li><Link to="/projects" class="thin black-text">Projects</Link></li>
@@ -33,16 +34,16 @@ componentDidMount(){
       </nav>
       <br></br>
       <br></br>
+      <br></br>
       <ul class="sidenav" id="slide-out">
-      <li><Link to="/about" class="thin black-text">About</Link></li>
+            <li><Link to="/about" class="thin black-text">About</Link></li>
             <li><Link to="/projects" class="thin black-text">Projects</Link></li>
             <li><a href = {Pdf} target="_blank" rel="noopener noreferrer" class="thin black-text">Resume</a></li>
             <li><a href = "https://kpobrien4.github.io/" target="_blank" rel="noopener noreferrer" class="thin black-text">Blog</a></li>
             <li><Link to="/music" class="thin black-text">Music</Link></li>
             <li><Link to="/contact" class="thin black-text">Contact</Link></li>
       </ul>
-      <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-      </div>
+       </div>
 
     )
   }
