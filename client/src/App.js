@@ -9,13 +9,12 @@ import Contact from './components/Contact'
 import Music from './components/Music'
 import Errors from './components/Errors'
 import './App.css';
-// import { HashRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 
 class App extends Component {
   render(){
   return (
-    // <HashRouter hashType="noslash">
-    <Router >
+    <HashRouter hashType="noslash">
       <Nav />
       <div className="container">
         <Switch>
@@ -24,7 +23,7 @@ class App extends Component {
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/music" component={Music} />
-          <Route component={Errors} />
+          <HashRoute component={Errors} />
         </Switch>
       </div>
       <br></br>
