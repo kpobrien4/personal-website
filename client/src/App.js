@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import Home from './components/Home';
 import About from './components/About';
 import Projects from './components/Projects'
+import SymbioSound from './components/projectsfolder/SymbioSound'
 import Contact from './components/Contact'
 import Music from './components/Music'
 import Errors from './components/Errors'
@@ -25,6 +26,7 @@ class App extends Component {
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/music" component={Music} />
+          <Route exact path="/projects/symbiosound" component={SymbioSound} />
           <Route component={Errors} />
         </Switch>
       </div>
