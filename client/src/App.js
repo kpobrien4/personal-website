@@ -23,7 +23,7 @@ class App extends Component {
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/music" component={Music} />
-          <HashRoute component={Errors} />
+          <Route component={Errors} />
         </Switch>
       </div>
       <br></br>
@@ -31,7 +31,7 @@ class App extends Component {
       <br></br>
       <br></br>
       <Footer />
-    </Router>
+    </HashRouter>
   );
   }
 }
