@@ -20,7 +20,6 @@ componentDidMount(){
       <nav class="white hoverable" >
         <div className="container">
           <Link to="/" class="brand-logo thin black-text">Kevin O'Brien</Link>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul className="right">
             <li><Link to="/about" class="thin black-text">About</Link></li>
             <li><Link to="/projects" class="thin black-text">Projects</Link></li>
@@ -39,6 +38,7 @@ componentDidMount(){
             <li><Link to="/music" class="thin black-text">Music</Link></li>
             <li><Link to="/contact" class="thin black-text">Contact</Link></li>
       </ul>
+      <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       </div>
 
     )
