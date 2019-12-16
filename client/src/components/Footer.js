@@ -12,12 +12,12 @@ export class Footer extends Component {
           <div class="row">
             <div class="col l6 s12">
               <ul>
-                <li><a href="https://www.linkedin.com/in/kpobrien4/"><img src={llogo} width="75" height="75" alt="LinkedIn"/></a></li>
+                <li><a href="https://www.linkedin.com/in/kpobrien4/" target="_blank" rel="noopener noreferrer"><img src={llogo} width="75" height="75" alt="LinkedIn"/></a></li>
               </ul>
             </div>
             <div class="col l6 s12">
               <ul>
-                <li><a href="https://github.com/kpobrien4"><img src={glogo} width="75" height="75" alt="github"/></a></li>
+                <li><a href="https://github.com/kpobrien4" target="_blank" rel="noopener noreferrer"><img src={glogo} width="75" height="75" alt="github"/></a></li>
               </ul>
             </div>
           </div>
