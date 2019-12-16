@@ -25,7 +25,6 @@ export class Projects extends Component {
     return (
     <div>
         <h4 class="thin">Software Engineering Projects:</h4>
-        <br></br>
         <div class="row">
         <Link to="/projects/symbiosound">
              <div class="column">
@@ -69,7 +68,6 @@ export class Projects extends Component {
     <br></br>
     <br></br>
     <h4 class="thin">Data Analysis/Physics Projects:</h4>
-    <br></br>
     <div class="row">
     <Link to="/projects/pulsednmr">
              <div class="column">
@@ -104,8 +102,7 @@ export class Projects extends Component {
         </div>
         </Link>
     </div>
-        
-      </div>
+</div>
 
     )
   }
