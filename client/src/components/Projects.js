@@ -66,7 +66,6 @@ export class Projects extends Component {
         </Link>
     </div>
     <br></br>
-    <br></br>
     <h4 class="thin">Data Analysis/Physics Projects:</h4>
     <div class="row">
     <Link to="/projects/pulsednmr">
