@@ -3,9 +3,8 @@ import '../contact.css'
 import * as emailjs from 'emailjs-com'
 // import USER_ID from '../USER_ID.js'
 // import TEMPLATE_ID from '../TEMPLATE_ID.js'
-
-
 import { Form, FormGroup, Label, Input } from 'reactstrap'
+
 class Contact extends Component {
   state = {
     name: '',
@@ -54,7 +53,8 @@ render() {
                 value={this.state.email}
                 className="text-primary"
                 onChange={this.handleChange.bind(this, 'email')}
-                placeholder="Enter email"
+                placeholder="Email"
+                required
               />
             </FormGroup>
 <FormGroup controlId="formBasicName">
@@ -66,6 +66,7 @@ render() {
                 className="text-primary"
                 onChange={this.handleChange.bind(this, 'name')}
                 placeholder="Name"
+                required
               />
             </FormGroup>
 <FormGroup controlId="formBasicSubject">
@@ -77,6 +78,7 @@ render() {
                 value={this.state.subject}
                 onChange={this.handleChange.bind(this, 'subject')}
                 placeholder="Subject"
+                required
               />
             </FormGroup>
 <FormGroup controlId="formBasicMessage">
