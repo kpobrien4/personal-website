@@ -7,6 +7,10 @@ import PulsedNMR from '../images/pulsed-nmr.jpeg'
 import HallEffect from '../images/halleffect.png'
 import FluorescenceMicroscopy from '../images/fluorescence-microscopy.jpeg'
 import OpticalSpectroscopy from '../images/opticalspectroscopy.png'
+import Lab1 from '../Optical_Spectroscopy.pdf'
+import Lab2 from '../Pulsed_NMR.pdf'
+import Lab3 from '../Hall_Effect-2.pdf'
+import Lab4 from '../Fluorescence_Microscopy.pdf'
 import '../projects.css'
 import { Link } from 'react-router-dom';
 
@@ -68,38 +72,38 @@ export class Projects extends Component {
     <br></br>
     <h4 class="thin">Data Analysis/Physics Projects:</h4>
     <div class="row">
-    <Link to="/projects/pulsednmr">
+    <a href = {Lab2} target="_blank" rel="noopener noreferrer" class="thin black-text">
              <div class="column">
             <div class="project">
             <img class="project hoverable" src={PulsedNMR} alt="PulsedNMR"/>
             <p class="center thin">Pulsed NMR</p>
             </div>
         </div>
-        </Link>
-        <Link to="/projects/halleffect">
+        </a>
+        <a href = {Lab3} target="_blank" rel="noopener noreferrer" class="thin black-text">
              <div class="column">
             <div class="project">
             <img class="project hoverable" src={HallEffect} alt="HallEffect"/>
             <p class="center thin">Hall Effect</p>
             </div>
         </div>
-        </Link>
-        <Link to="/projects/opticalspectroscopy">
+        </a>
+        <a href = {Lab1} target="_blank" rel="noopener noreferrer" class="thin black-text">
              <div class="column">
             <div class="project">
             <img class="project hoverable" src={OpticalSpectroscopy} alt="OpticalSpectroscopy"/>
             <p class="center thin">Optical Spectroscopy</p>
             </div>
         </div>
-        </Link>
-        <Link to="/projects/fluorescencemicroscopy">
+        </a>
+        <a href = {Lab4} target="_blank" rel="noopener noreferrer" class="thin black-text">
              <div class="column">
             <div class="project">
             <img class="project hoverable" src={FluorescenceMicroscopy} alt="FluorescenceMicroscopy"/>
             <p class="center thin">Fluorescence Microscopy</p>
             </div>
         </div>
-        </Link>
+        </a>
     </div>
 </div>
 
