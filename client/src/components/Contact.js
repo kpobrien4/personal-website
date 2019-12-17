@@ -2,6 +2,10 @@ import React, { Component } from 'react'
 import '../contact.css'
 import * as emailjs from 'emailjs-com'
 import { Form, FormGroup, Label, Input } from 'reactstrap'
+import USER_ID from '../USER_ID.js'
+import TEMPLATE_ID from '../TEMPLATE_ID.js'
+
+
 
 class Contact extends Component {
   state = {
@@ -10,6 +14,7 @@ class Contact extends Component {
     subject: '',
     message: '',
   }
+
 handleSubmit(e) {
     e.preventDefault()
     const { name, email, subject, message } = this.state
@@ -21,9 +26,9 @@ handleSubmit(e) {
      }
      emailjs.send(
        'gmail',
-        'process.env.${TEMPLATE_ID}',
+        TEMPLATE_ID,
         templateParams,
-        'process.env.${USER_ID}'
+        USER_ID
      )
      this.resetForm()
  }
