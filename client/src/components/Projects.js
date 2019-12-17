@@ -35,6 +35,8 @@ export class Projects extends Component {
             <div class="project">
             <img class="project hoverable" src={SymbioSound} alt="SymbioSound"/>
             <p class="center thin">SymbioSound</p>
+            <br></br>
+            <br></br>
             </div>
         </div>
         </Link>
@@ -44,6 +46,8 @@ export class Projects extends Component {
             <div class="project">
             <img class="project hoverable" src={TrackNotes} alt="TrackNotes"/>
             <p class="center thin">TrackNotes</p>
+            <br></br>
+            <br></br>
             </div>
             </div>
         </div>
@@ -54,6 +58,8 @@ export class Projects extends Component {
             <div class="project">
             <img class="project hoverable" src={EquationSheetGenerator} alt="Equation Sheet Generator"/>
             <p class="center thin">Equation Sheet Generator</p>
+            <br></br>
+            <br></br>
             </div>
             </div>
         </div>
@@ -64,6 +70,8 @@ export class Projects extends Component {
             <div class="project">
             <img class="project hoverable" src={CharityRoulette} alt="Charity Roulette"/>
             <p class="center thin">Charity Roulette</p>
+            <br></br>
+            <br></br>
             </div>
             </div>
         </div>
@@ -77,6 +85,8 @@ export class Projects extends Component {
             <div class="project">
             <img class="project hoverable" src={PulsedNMR} alt="PulsedNMR"/>
             <p class="center thin">Pulsed NMR</p>
+            <br></br>
+            <br></br>
             </div>
         </div>
         </a>
@@ -85,6 +95,8 @@ export class Projects extends Component {
             <div class="project">
             <img class="project hoverable" src={HallEffect} alt="HallEffect"/>
             <p class="center thin">Hall Effect</p>
+            <br></br>
+            <br></br>
             </div>
         </div>
         </a>
@@ -93,6 +105,8 @@ export class Projects extends Component {
             <div class="project">
             <img class="project hoverable" src={OpticalSpectroscopy} alt="OpticalSpectroscopy"/>
             <p class="center thin">Optical Spectroscopy</p>
+            <br></br>
+            <br></br>
             </div>
         </div>
         </a>
@@ -101,6 +115,8 @@ export class Projects extends Component {
             <div class="project">
             <img class="project hoverable" src={FluorescenceMicroscopy} alt="FluorescenceMicroscopy"/>
             <p class="center thin">Fluorescence Microscopy</p>
+            <br></br>
+            <br></br>
             </div>
         </div>
         </a>

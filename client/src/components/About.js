@@ -5,7 +5,7 @@ export class About extends Component {
     return (
       <div>
         <h3 class="thin">About Me</h3>
-        <p>Kevin is a stand up guy</p>
+        <p>Kevin O'Brien is a software engineer, physicist, and musician from upstate New York. </p>
         <br></br>
         <br></br>
         <br></br>
