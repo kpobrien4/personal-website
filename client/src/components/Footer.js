@@ -23,7 +23,8 @@ export class Footer extends Component {
           </div>
         </div>
         <div class="footer-copyright">
-          <div class="container">
+          <div style={{color:"black"}} class="container">
+          © 2019 Kevin O'Brien
           </div>
         </div>
       </footer>
