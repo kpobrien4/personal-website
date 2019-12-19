@@ -6,3 +6,10 @@
 .list {
     list-style-type: circle !important
 }
+
+.opz {
+    width: 34%;
+    height: 160px;
+    clear: right;
+    visibility: hidden
+}

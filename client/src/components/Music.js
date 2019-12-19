@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import mp3 from '../testsonglmc.mp3'
 import '../music.css'
+import OPZ from "../images/opz.JPG"
 
 export class Music extends Component {
   render() {
@@ -16,6 +17,7 @@ export class Music extends Component {
     <hr></hr>
     <h3 class="thin">Instruments and Technology:</h3>
     <ul class="list browser-default thin">
+    <img class="opz" src={OPZ} alt="OPZ" align="right"></img>
         <li>Logic Pro X</li>
         <li>M Audio Code 61</li>
         <li>Teenage Engineering OP-Z</li>
@@ -25,7 +27,6 @@ export class Music extends Component {
         <li>Macbook Pro</li>
         <li>Supro 2020BM Westbury Dual Pickup Island Series Electric Guitar</li>
         <li>Yamaha P45 Digital Piano</li>
-
     </ul>
       </div>
 
