@@ -31,8 +31,8 @@ export class Quotes extends Component {
   <cite>-Aubrey Graham</cite>
 	</div>
 	<div class="quote-loop quote-hide">
-  <p class="center quote"><i>“Everyone now knows how to find the meaning of life within himself.”</i></p>
-  <cite>-Kurt Vonnegut</cite>
+  <p class="center quote"><i>“I'm inspired by the words: 'electrifying', 'epic', 'minimalistic', 'transcendent', 'timeless' and 'rock n' roll.”</i></p>
+  <cite>-Janelle Monàe</cite>
 	</div>
 	<div class="quote-loop quote-hide">
   <p class="center quote"><i>"Would you tell Piccasso to sell his guitars?"</i></p>
