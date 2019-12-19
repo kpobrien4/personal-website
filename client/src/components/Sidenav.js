@@ -21,6 +21,8 @@ componentDidMount(){
       <div>
 
       <ul class="sidenav" id="slide-out">
+        <li><Link to="/" class="thin black-text sidenav-close"><i class="material-icons">home</i></Link></li>
+        <hr></hr>
             <li><Link to="/about" class="thin black-text sidenav-close">About</Link></li>
             <li><Link to="/projects" class="thin black-text sidenav-close">Projects</Link></li>
             <li><a href = {Pdf} target="_blank" rel="noopener noreferrer" class="thin black-text sidenav-close">Resume</a></li>
