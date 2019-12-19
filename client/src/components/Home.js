@@ -14,7 +14,6 @@ export class Home extends Component {
         <br></br>
         <Quotes />
       </div>
-      
     )
   }
 }

@@ -1,8 +1,12 @@
-.quotes{
-    display:none;
-    font-family:Helvetica;
-    font-size:20px;
-    text-align:center;
-    margin:30%;
-  }
-  
+
+.quote-hide {
+  display: none;
+}
+.quote-box {
+	text-align: center;
+	padding: 2em;
+}
+cite {
+	font-size: 80%;
+	color: #999;
+}

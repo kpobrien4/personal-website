@@ -1,16 +1,29 @@
-(function() {
+// import React, { Component } from 'react'
 
-    var quotes = $(".quotes");
-    var quoteIndex = -1;
-    
-    function showNextQuote() {
-        ++quoteIndex;
-        quotes.eq(quoteIndex % quotes.length)
-            .fadeIn(2000)
-            .delay(5000)
-            .fadeOut(2000, showNextQuote);
-    }
-    
-    showNextQuote();
-    
-})();
+
+// export class Quotes{
+// initQuoteCarousel() {
+
+//     var quotesWrapper = (".cust-quotes");
+//     var quotes = quotesWrapper.find("blockquote");
+
+//     if (!quotes.length) {
+//         return;
+//     }
+
+//     var selectNextQuote = function () {
+//         var quote = quotesWrapper.find("blockquote:first").detach().appendTo(quotesWrapper);
+
+//         setTimeout(selectNextQuote, quote.data("timeout"));
+//     };
+
+//     setTimeout(selectNextQuote, quotes.filter(":first").data("timeout"));
+
+// }
+
+//  => {
+//     initQuoteCarousel();
+// };
+
+// }
+// export default Quotes
