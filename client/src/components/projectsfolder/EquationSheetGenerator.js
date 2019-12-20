@@ -4,7 +4,9 @@ export class EquationSheetGenerator extends Component {
   render() {
     return (
       <div>
-        <h2 class="thin center">Equation Sheet Generator</h2>
+          <br></br>
+        <h2 class="thin project-title">Equation Sheet Generator</h2><button type="submit" class="thin btn git right links waves-effect waves-light">GitHub</button> <button type="submit" class="thin btn demo right links waves-effect waves-light">Demo</button>
+        <hr></hr>
         <p class="thin">
           While attending Flatiron School,  
         </p>

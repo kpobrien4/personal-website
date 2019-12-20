@@ -17,6 +17,7 @@ import './App.css';
 import { HashRouter } from 'react-router-dom';
 
 class App extends Component {
+  
   render(){
   return (
     <HashRouter hashType="noslash">
@@ -36,9 +37,7 @@ class App extends Component {
           <Route component={Errors} />
         </Switch>
       </div>
-      <br></br>
-      <br></br>
-      <br></br>
+
       <br></br>
       <Footer />
     </HashRouter>
