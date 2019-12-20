@@ -7,6 +7,7 @@ export class EquationSheetGenerator extends Component {
           <br></br>
         <h2 class="thin project-title">Equation Sheet Generator</h2><button type="submit" class="thin btn git right links waves-effect waves-light">GitHub</button> <button type="submit" class="thin btn demo right links waves-effect waves-light">Demo</button>
         <hr></hr>
+        <p class="center-align">Skills demonstrated using Object Oriented JavaScript, AJAX, serialized JSON, HTML, CSS, Ruby on Rails</p>
         <p class="thin">
           While attending Flatiron School,  
         </p>
