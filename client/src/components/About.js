@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import CodingStock from '../images/CodingStock.jpeg'
 import '../about.css'
 
 export class About extends Component {

@@ -6,10 +6,10 @@ export class TrackNotes extends Component {
       <div>
         <div>
             <br></br>
-            <h2 class="thin project-title">TrackNotes</h2><button type="submit" class="thin btn git right links waves-effect waves-light">GitHub</button> <button type="submit" class="thin btn demo right links waves-effect waves-light">Demo</button>
+            <h2 class="thin project-title">TrackNotes </h2><button type="submit" class="thin btn git right links waves-effect waves-light">GitHub</button> <button type="submit" class="thin btn demo right links waves-effect waves-light">Demo</button>
         </div>
         <hr></hr>
-        <p class="center-align">Skills demonstrated using React.js, Redux, Rails API, PostgreSQL, HTML, CSS, Thunk Middleware, AJAX, RESTful Routes</p>
+        <p class="center-align skills">Skills demonstrated using React.js, Redux, Rails API, PostgreSQL, HTML, CSS, Thunk Middleware, AJAX, RESTful Routes</p>
         <p class="thin">
           TrackNotes 
         </p>

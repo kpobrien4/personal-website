@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import '../contact.css'
 import * as emailjs from 'emailjs-com'
 import { Form, FormGroup, Label, Input } from 'reactstrap'
-// import USER_ID from '../USER_ID.js'
-// import TEMPLATE_ID from '../TEMPLATE_ID.js'
+import USER_ID from '../USER_ID.js'
+import TEMPLATE_ID from '../TEMPLATE_ID.js'
 
 
 class Contact extends Component {
@@ -24,10 +24,10 @@ handleSubmit(e) {
       message_html: message,
      }
      emailjs.send(
-      //  'gmail',
-      //   TEMPLATE_ID,
-      //   templateParams,
-        // USER_ID
+        'gmail',
+         TEMPLATE_ID,
+         templateParams,
+         USER_ID
      )
      this.resetForm()
  }

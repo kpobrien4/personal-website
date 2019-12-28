@@ -10,3 +10,16 @@
 .demo {
     right: 10px
 }
+
+
+@media screen and (max-width: 900px) {
+    button {
+        display: block;
+        margin: 0 auto; 
+        float:left
+    }
+
+    .skills{
+        margin-top: 50px;
+    }
+  }

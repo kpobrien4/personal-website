@@ -11,7 +11,7 @@ export class CharityRoulette extends Component {
             <h2 class="thin project-title">Charity Roulette</h2><button type="submit" class="thin btn git right links waves-effect waves-light">GitHub</button> <button type="submit" class="thin btn demo right links waves-effect waves-light">Demo</button>
         </div>
         <hr></hr>
-        <p class="center-align">Skills demonstrated using Ruby, Nokogiri, Object Oriented Design</p>
+        <p class="center-align skills">Skills demonstrated using Ruby, Nokogiri, Object Oriented Design</p>
         <p class="thin">
           Charity Roulette was my first CLI application, and my first project completed while attending Flatiron School. For the project, I utilized ruby basics to create a command line that prompts you through a multi-level Nokogiri scraped data list.
           The project was successful in expanding my knowledge of code, as it was my first attempt at utilizing the four pillars of object oriented programming, abstraction, encapsulation, inheritance and polymorphism. 
@@ -20,7 +20,7 @@ export class CharityRoulette extends Component {
             The app was very simple in its design, however the core idea was to create a CLI application which randomly assigns a user a charity, and then randomly assigns them a dollar amount within a range inputted by that user, for them to donate to that charity. This was done by scraping an array of charity categories from charitynavigator.org, which would then be iterated over and displayed in the command line prompt. 
         </p>
         <p class="center-align">
-        <img src={Category} alt="Category" width="600" height="100"></img>
+        <img src={Category} alt="Category" class="responsive-img" width="600" height="100"></img>
         </p>
         <p class="thin">
             The user would then input the number corresponding to the category of charity they wanted, and would then be given a list of more specific subcategories for each category. For example, if our charitable user wanted to clean up the Earth and chose an environmental charity, they would then be given a choice between Environmental Protection and Conservation or Botanical Gardens, Parks, and Nature Centers. Using the .sample array method in ruby, a random element is chosen from the array of charities pertaining to that subcategory.
