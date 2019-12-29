@@ -31,7 +31,7 @@ export class Quotes extends Component {
   <cite>-Aubrey Graham</cite>
 	</div>
 	<div class="quote-loop quote-hide">
-  <p class="center quote"><i>“When you realize it's your responsibility to be a leader and create the world that you want to see, you have to do it.”</i></p>
+  <p class="center quote"><i>“Silence is our enemy, and sound is our weapon.”</i></p>
   <cite>-Janelle Monàe</cite>
 	</div>
 	<div class="quote-loop quote-hide">
