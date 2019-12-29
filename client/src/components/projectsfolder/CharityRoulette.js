@@ -20,7 +20,7 @@ export class CharityRoulette extends Component {
             The app was very simple in its design, however the core idea was to create a CLI application which randomly assigns a user a charity, and then randomly assigns them a dollar amount within a range inputted by that user, for them to donate to that charity. This was done by scraping an array of charity categories from charitynavigator.org, which would then be iterated over and displayed in the command line prompt. 
         </p>
         <p class="center-align">
-        <img src={Category} alt="Category" class="responsive-img" width="600" height="100"></img>
+        <img src={Category} alt="Category" class="responsive-img categorypic" width="600" height="100"></img>
         </p>
         <p class="thin">
             The user would then input the number corresponding to the category of charity they wanted, and would then be given a list of more specific subcategories for each category. For example, if our charitable user wanted to clean up the Earth and chose an environmental charity, they would then be given a choice between Environmental Protection and Conservation or Botanical Gardens, Parks, and Nature Centers. Using the .sample array method in ruby, a random element is chosen from the array of charities pertaining to that subcategory.
