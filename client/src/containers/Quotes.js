@@ -36,7 +36,7 @@ export class Quotes extends Component {
 	</div>
 	<div class="quote-loop quote-hide">
   <p class="center quote"><i>"Would you tell Piccasso to sell his guitars?"</i></p>
-  <cite>Jack Black in School of Rock</cite>
+  <cite>-Jack Black in School of Rock</cite>
 
 	</div>
 </div>   
