@@ -27,8 +27,8 @@ export class Quotes extends Component {
   <cite>-Richard Feynman</cite>
 	</div>
 	<div class="quote-loop quote-hide">
-  <p class="center quote"><i>"I only love my bed and my mama I'm sorry."</i></p>
-  <cite>-Aubrey Graham</cite>
+  <p class="center quote"><i>"I want to put a ding in the universe."</i></p>
+  <cite>-Steve Jobs</cite>
 	</div>
 	<div class="quote-loop quote-hide">
   <p class="center quote"><i>“Silence is our enemy, and sound is our weapon.”</i></p>
