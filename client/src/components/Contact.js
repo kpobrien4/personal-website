@@ -20,6 +20,7 @@ handleSubmit(e) {
     let templateParams = {
       from_name: email,
       to_name: 'kpobrien@buffalo.edu',
+      name: name,
       subject: subject,
       message_html: message,
      }
