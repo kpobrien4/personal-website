@@ -48,14 +48,14 @@ render() {
           <h3 className="p-heading1" class="thin">Get in Touch</h3>
           <Form onSubmit={this.handleSubmit.bind(this)}>
             <FormGroup controlId="formBasicEmail">
-              <Label className="text-muted">Email address</Label>
+              <Label className="text-muted">Email</Label>
               <Input
                 type="email"
                 name="email"
                 value={this.state.email}
                 className="text-primary"
                 onChange={this.handleChange.bind(this, 'email')}
-                placeholder="Email"
+                placeholder="example@domain.com"
                 required
               />
             </FormGroup>
