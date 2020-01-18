@@ -10,6 +10,7 @@ import SymbioSound from './components/projectsfolder/SymbioSound'
 import EquationSheetGenerator from './components/projectsfolder/EquationSheetGenerator'
 import TrackNotes from './components/projectsfolder/TrackNotes'
 import CharityRoulette from './components/projectsfolder/CharityRoulette'
+import ExpenseTracker from './components/projectsfolder/ExpenseTracker'
 import Contact from './components/Contact'
 import Music from './components/Music'
 import Errors from './components/Errors'
@@ -34,6 +35,7 @@ class App extends Component {
           <Route exact path="/projects/tracknotes" component={TrackNotes} />
           <Route exact path="/projects/equationsheetgenerator" component={EquationSheetGenerator} />
           <Route exact path="/projects/charityroulette" component={CharityRoulette} />
+          <Route exact path="/projects/expensetracker" component={ExpenseTracker} />
           <Route component={Errors} />
         </Switch>
       </div>
