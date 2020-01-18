@@ -7,6 +7,7 @@ import PulsedNMR from '../images/pulsed-nmr.jpeg'
 import HallEffect from '../images/halleffect.png'
 import FluorescenceMicroscopy from '../images/fluorescence-microscopy.jpeg'
 import OpticalSpectroscopy from '../images/opticalspectroscopy.png'
+import ExpenseTracker from '../images/expensetracker.png'
 import Lab1 from '../Optical_Spectroscopy.pdf'
 import Lab2 from '../Pulsed_NMR.pdf'
 import Lab3 from '../Hall_Effect-2.pdf'
@@ -77,18 +78,18 @@ export class Projects extends Component {
         </div>
         </Link>
     </div>
-    {/* <div class="row">
+    <div class="row">
         <Link to="/projects/expensetracker">
              <div class="column">
             <div class="project">
-            <img class="project hoverable" src={SymbioSound} alt="War"/>
+            <img class="project hoverable" src={ExpenseTracker} alt="ExpenseTracker"/>
             <p class="center thin">Expense Tracker</p>
             <br></br>
             <br></br>
             </div>
         </div>
         </Link>
-        </div> */}
+        </div>
     <br></br>
     <h4 class="thin">Data Analysis/Physics Projects:</h4>
     <div class="row">
