@@ -77,6 +77,18 @@ export class Projects extends Component {
         </div>
         </Link>
     </div>
+    {/* <div class="row">
+        <Link to="/projects/expensetracker">
+             <div class="column">
+            <div class="project">
+            <img class="project hoverable" src={SymbioSound} alt="War"/>
+            <p class="center thin">Expense Tracker</p>
+            <br></br>
+            <br></br>
+            </div>
+        </div>
+        </Link>
+        </div> */}
     <br></br>
     <h4 class="thin">Data Analysis/Physics Projects:</h4>
     <div class="row">
