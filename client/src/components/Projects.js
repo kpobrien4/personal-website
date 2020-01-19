@@ -33,10 +33,10 @@ export class Projects extends Component {
         <div class="row">
         <Link to="/projects/symbiosound">
              <div class="column">
-            <div class="project container">
-            <img class="project hoverable image" src={SymbioSound} alt="SymbioSound"/>
-            <div class="middle">
-            <p class="center text">SymbioSound</p>
+            <div class="project symbio-container">
+            <img class="project hoverable symbio-image" src={SymbioSound} alt="SymbioSound"/>
+            <div class="symbio-middle">
+            <p class="center symbio-text">SymbioSound</p>
             </div>
             <br></br>
             <br></br>

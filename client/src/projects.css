@@ -2,31 +2,31 @@
     width: 190px;
     height: 190px;
     object-fit: cover;
-    border-radius: 0px;
+    border-radius: 12px;
     text-align:center;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 
 
-.container {
+.symbio-container {
   opacity: 1;
   transition: .5s ease;
   display: block;
   backface-visibility: hidden;
 }
 
-.middle {
+.symbio-middle {
   transition: .5s ease;
   opacity: 0;
 
 }
 
-.project:hover .image {
+.project:hover .symbio-image {
   opacity: 0.3;
 }
 
-.project:hover .middle {
+.project:hover .symbio-middle {
   opacity: 1;
 }
 
@@ -200,7 +200,7 @@
 }
 
 
-.project .text {
+.project .symbio-text {
   position:relative;
   font-size: 18px;
   font-weight: bold;
@@ -210,7 +210,7 @@
   color: black
   }
   
-  .project:hover .text {
+  .project:hover .symbio-text {
   visibility:visible;
   }
 
