@@ -2,11 +2,337 @@
     width: 190px;
     height: 190px;
     object-fit: cover;
-    border-radius: 12px;
+    border-radius: 0px;
     text-align:center;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+
+.container {
+  opacity: 1;
+  transition: .5s ease;
+  display: block;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
 
 }
+
+.project:hover .image {
+  opacity: 0.3;
+}
+
+.project:hover .middle {
+  opacity: 1;
+}
+
+.track-container {
+  opacity: 1;
+  transition: .5s ease;
+  display: block;
+  backface-visibility: hidden;
+}
+
+.track-middle {
+  transition: .5s ease;
+  opacity: 0;
+
+}
+
+.project:hover .track-image {
+  opacity: 0.3;
+}
+
+.project:hover .track-middle {
+  opacity: 1;
+}
+
+.equation-container {
+  opacity: 1;
+  transition: .5s ease;
+  display: block;
+  backface-visibility: hidden;
+}
+
+.equation-middle {
+  transition: .5s ease;
+  opacity: 0;
+
+}
+
+.project:hover .equation-image {
+  opacity: 0.3;
+}
+
+.project:hover .equation-middle {
+  opacity: 1;
+}
+
+.charity-container {
+  opacity: 1;
+  transition: .5s ease;
+  display: block;
+  backface-visibility: hidden;
+}
+
+.charity-middle {
+  transition: .5s ease;
+  opacity: 0;
+
+}
+
+.project:hover .charity-image {
+  opacity: 0.3;
+}
+
+.project:hover .charity-middle {
+  opacity: 1;
+}
+
+
+.expense-container {
+  opacity: 1;
+  transition: .5s ease;
+  display: block;
+  backface-visibility: hidden;
+}
+
+.expense-middle {
+  transition: .5s ease;
+  opacity: 0;
+
+}
+
+.project:hover .expense-image {
+  opacity: 0.3;
+}
+
+.project:hover .expense-middle {
+  opacity: 1;
+}
+
+.pulsed-container {
+  opacity: 1;
+  transition: .5s ease;
+  display: block;
+  backface-visibility: hidden;
+}
+
+.pulsed-middle {
+  transition: .5s ease;
+  opacity: 0;
+
+}
+
+.project:hover .pulsed-image {
+  opacity: 0.3;
+}
+
+.project:hover .pulsed-middle {
+  opacity: 1;
+}
+
+.hall-container {
+  opacity: 1;
+  transition: .5s ease;
+  display: block;
+  backface-visibility: hidden;
+}
+
+.hall-middle {
+  transition: .5s ease;
+  opacity: 0;
+
+}
+
+.project:hover .hall-image {
+  opacity: 0.3;
+}
+
+.project:hover .hall-middle {
+  opacity: 1;
+}
+
+.optical-container {
+  opacity: 1;
+  transition: .5s ease;
+  display: block;
+  backface-visibility: hidden;
+}
+
+.optical-middle {
+  transition: .5s ease;
+  opacity: 0;
+
+}
+
+.project:hover .optical-image {
+  opacity: 0.3;
+}
+
+.project:hover .optical-middle {
+  opacity: 1;
+}
+
+.fluor-container {
+  opacity: 1;
+  transition: .5s ease;
+  display: block;
+  backface-visibility: hidden;
+}
+
+.fluor-middle {
+  transition: .5s ease;
+  opacity: 0;
+
+}
+
+.project:hover .fluor-image {
+  opacity: 0.3;
+}
+
+.project:hover .fluor-middle {
+  opacity: 1;
+}
+
+
+.project .text {
+  position:relative;
+  font-size: 18px;
+  font-weight: bold;
+  bottom:130px;
+  left:0px;
+  visibility:hidden;
+  color: black
+  }
+  
+  .project:hover .text {
+  visibility:visible;
+  }
+
+  .project .track-text {
+    position:relative;
+    font-size: 18px;
+    font-weight: bold;
+    bottom:130px;
+    left:0px;
+    visibility:hidden;
+    color: black
+    }
+    
+    .project:hover .track-text {
+    visibility:visible;
+    }
+
+    .project .equation-text {
+      position:relative;
+      font-size: 18px;
+      font-weight: bold;
+      bottom:145px;
+      left:0px;
+      visibility:hidden;
+      color: black
+      }
+      
+      .project:hover .equation-text {
+      visibility:visible;
+      }
+
+      .project .charity-text {
+        position:relative;
+        font-size: 18px;
+        font-weight: bold;
+        bottom:130px;
+        left:0px;
+        visibility:hidden;
+        color: black
+        }
+        
+        .project:hover .charity-text {
+        visibility:visible;
+        }
+
+
+  .project .expense-text {
+          position:relative;
+          font-size: 18px;
+          font-weight: bold;
+          bottom:130px;
+          left:0px;
+          visibility:hidden;
+          color: black
+          }
+          
+  .project:hover .expense-text {
+      visibility:visible;
+        }
+
+
+  .project .pulsed-text {
+          position:relative;
+          font-size: 18px;
+          font-weight: bold;
+          bottom:130px;
+          left:0px;
+          visibility:hidden;
+          color: black
+          }
+          
+  .project:hover .pulsed-text {
+      visibility:visible;
+        }
+
+
+        .project .hall-text {
+          position:relative;
+          font-size: 18px;
+          font-weight: bold;
+          bottom:130px;
+          left:0px;
+          visibility:hidden;
+          color: black
+          }
+          
+  .project:hover .hall-text {
+      visibility:visible;
+        }
+
+
+
+
+  .project .optical-text {
+          position:relative;
+          font-size: 18px;
+          font-weight: bold;
+          bottom:130px;
+          left:0px;
+          visibility:hidden;
+          color: black
+          }
+          
+  .project:hover .optical-text {
+      visibility:visible;
+        }
+
+
+
+  .project .fluor-text {
+          position:relative;
+          font-size: 18px;
+          font-weight: bold;
+          bottom:145px;
+          left:0px;
+          visibility:hidden;
+          color: black
+          }
+          
+  .project:hover .fluor-text {
+      visibility:visible;
+        }
 
 .project:hover {
   box-shadow: 1px 1px 5px black;
@@ -18,7 +344,6 @@
     padding: 0 4px;
   }
   
-  /* Create four equal columns that sits next to each other */
   .column {
     flex: 25%;
     max-width: 25%;

@@ -33,9 +33,11 @@ export class Projects extends Component {
         <div class="row">
         <Link to="/projects/symbiosound">
              <div class="column">
-            <div class="project">
-            <img class="project hoverable" src={SymbioSound} alt="SymbioSound"/>
-            <p class="center thin">SymbioSound</p>
+            <div class="project container">
+            <img class="project hoverable image" src={SymbioSound} alt="SymbioSound"/>
+            <div class="middle">
+            <p class="center text">SymbioSound</p>
+            </div>
             <br></br>
             <br></br>
             </div>
@@ -44,9 +46,11 @@ export class Projects extends Component {
         <Link to="/projects/tracknotes">
         <div>
         <div class="column">
-            <div class="project">
-            <img class="project hoverable" src={TrackNotes} alt="TrackNotes"/>
-            <p class="center thin">TrackNotes</p>
+            <div class="project track-container">
+            <img class="project hoverable track-image" src={TrackNotes} alt="TrackNotes"/>
+            <div class="track-middle">
+            <p class="center track-text">TrackNotes</p>
+            </div>
             <br></br>
             <br></br>
             </div>
@@ -56,9 +60,11 @@ export class Projects extends Component {
         <Link to="/projects/equationsheetgenerator">
         <div>
         <div class="column">
-            <div class="project">
-            <img class="project hoverable" src={EquationSheetGenerator} alt="Equation Sheet Generator"/>
-            <p class="center thin">Equation Sheet Generator</p>
+            <div class="project equation-container">
+            <img class="project hoverable equation-image" src={EquationSheetGenerator} alt="Equation Sheet Generator"/>
+            <div class="equation-middle">
+            <p class="center equation-text">Equation Sheet Generator</p>
+            </div>
             <br></br>
             <br></br>
             </div>
@@ -68,9 +74,11 @@ export class Projects extends Component {
         <Link to="/projects/charityroulette">
         <div>
         <div class="column">
-            <div class="project">
-            <img class="project hoverable" src={CharityRoulette} alt="Charity Roulette"/>
-            <p class="center thin">Charity Roulette</p>
+            <div class="project charity-container">
+            <img class="project hoverable charity-image" src={CharityRoulette} alt="Charity Roulette"/>
+            <div class="charity-middle">
+            <p class="center charity-text">Charity Roulette</p>
+            </div>
             <br></br>
             <br></br>
             </div>
@@ -81,23 +89,26 @@ export class Projects extends Component {
     <div class="row">
         <Link to="/projects/expensetracker">
              <div class="column">
-            <div class="project">
-            <img class="project hoverable" src={ExpenseTracker} alt="ExpenseTracker"/>
-            <p class="center thin">Expense Tracker</p>
+            <div class="project expense-container">
+            <img class="project hoverable expense-image" src={ExpenseTracker} alt="ExpenseTracker"/>
+            <div class="expense-middle">
+            <p class="center expense-text">Expense Tracker</p>
+            </div>
             <br></br>
             <br></br>
             </div>
         </div>
         </Link>
         </div>
-    <br></br>
     <h4 class="thin">Data Analysis/Physics Projects:</h4>
     <div class="row">
     <a href = {Lab2} target="_blank" rel="noopener noreferrer" class="thin black-text">
              <div class="column">
-            <div class="project">
-            <img class="project hoverable" src={PulsedNMR} alt="PulsedNMR"/>
-            <p class="center thin">Pulsed NMR</p>
+            <div class="project pulsed-container">
+            <img class="project hoverable pulsed-image" src={PulsedNMR} alt="PulsedNMR"/>
+            <div class="pulsed-middle">
+            <p class="center pulsed-text">Pulsed NMR</p>
+            </div>
             <br></br>
             <br></br>
             </div>
@@ -105,9 +116,11 @@ export class Projects extends Component {
         </a>
         <a href = {Lab3} target="_blank" rel="noopener noreferrer" class="thin black-text">
              <div class="column">
-            <div class="project">
-            <img class="project hoverable" src={HallEffect} alt="HallEffect"/>
-            <p class="center thin">Hall Effect</p>
+            <div class="project hall-container">
+            <img class="project hoverable hall-image" src={HallEffect} alt="HallEffect"/>
+            <div class="hall-middle">
+            <p class="center hall-text">Hall Effect</p>
+            </div>
             <br></br>
             <br></br>
             </div>
@@ -115,9 +128,11 @@ export class Projects extends Component {
         </a>
         <a href = {Lab1} target="_blank" rel="noopener noreferrer" class="thin black-text">
              <div class="column">
-            <div class="project">
-            <img class="project hoverable" src={OpticalSpectroscopy} alt="OpticalSpectroscopy"/>
-            <p class="center thin">Optical Spectroscopy</p>
+            <div class="project optical-container">
+            <img class="project hoverable optical-image" src={OpticalSpectroscopy} alt="OpticalSpectroscopy"/>
+            <div class="optical-middle">
+            <p class="center optical-text">Optical Spectroscopy</p>
+            </div>
             <br></br>
             <br></br>
             </div>
@@ -125,9 +140,11 @@ export class Projects extends Component {
         </a>
         <a href = {Lab4} target="_blank" rel="noopener noreferrer" class="thin black-text">
              <div class="column">
-            <div class="project">
-            <img class="project hoverable" src={FluorescenceMicroscopy} alt="FluorescenceMicroscopy"/>
-            <p class="center thin">Fluorescence Microscopy</p>
+            <div class="project fluor-container">
+            <img class="project hoverable fluor-image" src={FluorescenceMicroscopy} alt="FluorescenceMicroscopy"/>
+            <div class="fluor-middle">
+            <p class="center fluor-text">Fluorescence Microscopy</p>
+            </div>
             <br></br>
             <br></br>
             </div>
