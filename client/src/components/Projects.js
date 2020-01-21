@@ -47,9 +47,9 @@ export class Projects extends Component {
         <div>
         <div class="column">
             <div class="project track-container">
-            <img class="project hoverable track-image" src={TrackNotes} alt="TrackNotes"/>
+            <img class="project hoverable track-image" src={TrackNotes} alt="ProjectNotes"/>
             <div class="track-middle">
-            <p class="center track-text">TrackNotes</p>
+            <p class="center track-text">ProjectNotes</p>
             </div>
             <br></br>
             <br></br>

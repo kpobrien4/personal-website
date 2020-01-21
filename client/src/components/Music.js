@@ -10,7 +10,8 @@ export class Music extends Component {
         <h3 class="thin">Current Music Projects:</h3>
     <div>
         <hr class="full"></hr>
-        <h5 class="thin song">Sleep Away (teaser)</h5> <audio controls controlsList="nodownload">
+        <h5 class="thin song">Sleep Away (teaser)</h5> 
+        <audio controls controlsList="nodownload">
             <source src={mp3} type="audio/mpeg"></source>
         </audio>
     </div>
