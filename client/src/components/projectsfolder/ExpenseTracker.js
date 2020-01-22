@@ -13,7 +13,7 @@ export class ExpenseTracker extends Component {
           <hr></hr>
           <p class="center-align skills">Skills demonstrated using Python, Pandas, OpenPYXL</p>
           <p class="thin">
-            My first python project was an expense tracker app, which used the click library to generate a command line, with Pandas and openPYXL to write and interpret excel tables.
+            My first python project was an expense tracker app, which used the click library to generate a command line, with Pandas and openPYXL to write and interpret excel tables. The command line of this application prompts a user to enter the category their expense was contained in, and also the amount of money they've spent within that category, and then gives them the amount that they have remaining to spend in that category, and the total amount they have spent that month. 
           </p>
           <p class="thin">
           </p>
