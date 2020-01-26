@@ -199,6 +199,27 @@
   opacity: 1;
 }
 
+.twitter-container {
+  opacity: 1;
+  transition: .5s ease;
+  display: block;
+  backface-visibility: hidden;
+}
+
+.twitter-middle {
+  transition: .5s ease;
+  opacity: 0;
+
+}
+
+.project:hover .twitter-image {
+  opacity: 0.3;
+}
+
+.project:hover .twitter-middle {
+  opacity: 1;
+}
+
 
 .project .symbio-text {
   position:relative;
@@ -325,6 +346,20 @@
           font-size: 18px;
           font-weight: bold;
           bottom:145px;
+          left:0px;
+          visibility:hidden;
+          color: black
+          }
+          
+  .project:hover .twitter-text {
+      visibility:visible;
+        }
+
+        .project .twitter-text {
+          position:relative;
+          font-size: 18px;
+          font-weight: bold;
+          bottom:130px;
           left:0px;
           visibility:hidden;
           color: black

@@ -99,6 +99,18 @@ export class Projects extends Component {
             </div>
         </div>
         </Link>
+        <Link to="/projects/twitterbot">
+             <div class="column">
+            <div class="project twitter-container">
+            <img class="project hoverable twitter-image" src={ExpenseTracker} alt="TwitterBot"/>
+            <div class="twitter-middle">
+            <p class="center twitter-text">Twitter Bot</p>
+            </div>
+            <br></br>
+            <br></br>
+            </div>
+        </div>
+        </Link>
         </div>
     <h4 class="thin">Data Analysis/Physics Projects:</h4>
     <div class="row">
