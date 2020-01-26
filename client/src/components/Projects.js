@@ -8,6 +8,7 @@ import HallEffect from '../images/halleffect.png'
 import FluorescenceMicroscopy from '../images/fluorescence-microscopy.jpeg'
 import OpticalSpectroscopy from '../images/opticalspectroscopy.png'
 import ExpenseTracker from '../images/expensetracker.png'
+import TwitterBot from '../images/twitter.jpeg'
 import Lab1 from '../Optical_Spectroscopy.pdf'
 import Lab2 from '../Pulsed_NMR.pdf'
 import Lab3 from '../Hall_Effect-2.pdf'
@@ -102,7 +103,7 @@ export class Projects extends Component {
         <Link to="/projects/twitterbot">
              <div class="column">
             <div class="project twitter-container">
-            <img class="project hoverable twitter-image" src={ExpenseTracker} alt="TwitterBot"/>
+            <img class="project hoverable twitter-image" src={TwitterBot} alt="TwitterBot"/>
             <div class="twitter-middle">
             <p class="center twitter-text">Twitter Bot</p>
             </div>

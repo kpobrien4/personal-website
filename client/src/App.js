@@ -11,6 +11,7 @@ import EquationSheetGenerator from './components/projectsfolder/EquationSheetGen
 import TrackNotes from './components/projectsfolder/TrackNotes'
 import CharityRoulette from './components/projectsfolder/CharityRoulette'
 import ExpenseTracker from './components/projectsfolder/ExpenseTracker'
+import TwitterBot from './components/projectsfolder/TwitterBot'
 import Contact from './components/Contact'
 import Music from './components/Music'
 import Errors from './components/Errors'
@@ -36,6 +37,7 @@ class App extends Component {
           <Route exact path="/projects/equationsheetgenerator" component={EquationSheetGenerator} />
           <Route exact path="/projects/charityroulette" component={CharityRoulette} />
           <Route exact path="/projects/expensetracker" component={ExpenseTracker} />
+          <Route exact path="/projects/twitterbot" component={TwitterBot} />
           <Route component={Errors} />
         </Switch>
       </div>
