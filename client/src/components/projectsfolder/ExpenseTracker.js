@@ -8,7 +8,7 @@ export class ExpenseTracker extends Component {
         <div>
           <div>
               <br></br>
-              <h2 class="thin project-title">Expense Tracker</h2><a href = "https://github.com/kpobrien4/expense-tracker" target="_blank" rel="noopener noreferrer"><button type="submit" class="thin btn git right links waves-effect waves-light">GitHub</button></a> <a href = "https://youtu.be/42U-VjYRJqo" target="_blank" rel="noopener noreferrer"></a> 
+              <h2 class="thin project-title">Expense Tracker</h2><a href = "https://github.com/kpobrien4/expense-tracker" target="_blank" rel="noopener noreferrer"><button type="submit" class="btn git right links waves-effect waves-light">GitHub</button></a> <a href = "https://youtu.be/42U-VjYRJqo" target="_blank" rel="noopener noreferrer"></a> 
           </div>
           <hr></hr>
           <p class="center-align skills">Skills demonstrated using Python, Pandas, OpenPYXL</p>

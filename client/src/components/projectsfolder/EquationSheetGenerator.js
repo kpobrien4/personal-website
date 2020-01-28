@@ -5,7 +5,7 @@ export class EquationSheetGenerator extends Component {
     return (
       <div>
           <br></br>
-        <h2 class="thin project-title">Equation Sheet Generator</h2><a href = "https://github.com/kpobrien4/equation-sheet-generator" target="_blank" rel="noopener noreferrer"><button type="submit" class="thin btn git right links waves-effect waves-light">GitHub</button></a> <a href = "https://youtu.be/42U-VjYRJqo" target="_blank" rel="noopener noreferrer"><button type="submit" class="thin btn demo right links waves-effect waves-light">Demo</button></a> 
+        <h2 class="thin project-title">Equation Sheet Generator</h2><a href = "https://github.com/kpobrien4/equation-sheet-generator" target="_blank" rel="noopener noreferrer"><button type="submit" class="btn git right links waves-effect waves-light">GitHub</button></a> <a href = "https://youtu.be/42U-VjYRJqo" target="_blank" rel="noopener noreferrer"><button type="submit" class="btn demo right links waves-effect waves-light">Demo</button></a> 
         <hr></hr>
         <p class="center-align skills">Skills demonstrated using Object Oriented JavaScript, AJAX, serialized JSON, HTML, CSS, Ruby on Rails</p>
         <p class="thin">

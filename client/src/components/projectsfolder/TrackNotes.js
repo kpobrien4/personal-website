@@ -7,7 +7,7 @@ export class TrackNotes extends Component {
       <div>
         <div>
             <br></br>
-            <h2 class="thin project-title">ProjectNotes</h2><a href = "https://github.com/kpobrien4/react-final-project-hr" target="_blank" rel="noopener noreferrer"><button type="submit" class="thin btn git right links waves-effect waves-light">GitHub</button></a> <a href = "http://projectnotes.herokuapp.com/" target="_blank" rel="noopener noreferrer"><button type="submit" class="thin btn demo right links waves-effect waves-light">Demo</button></a> 
+            <h2 class="thin project-title">ProjectNotes</h2><a href = "https://github.com/kpobrien4/react-final-project-hr" target="_blank" rel="noopener noreferrer"><button type="submit" class="btn git right links waves-effect waves-light">GitHub</button></a> <a href = "http://projectnotes.herokuapp.com/" target="_blank" rel="noopener noreferrer"><button type="submit" class="btn demo right links waves-effect waves-light">Demo</button></a> 
         </div>
         <hr></hr>
         <p class="center-align skills">Skills demonstrated using React.js, Redux, Rails API, PostgreSQL, HTML, CSS, Thunk Middleware, AJAX, RESTful Routes</p>
