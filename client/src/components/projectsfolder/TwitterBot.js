@@ -9,7 +9,7 @@ export class TwitterBot extends Component {
         <hr></hr>
         <p class="center-align skills">Skills demonstrated using Python, Tweepy, Omniauth</p>
         <p class="thin">
-          My Twitter Bot application
+          My Twitter Bot application was created using Python, and initially served as a playground to explore the Twitter API, as well as the Tweepy libraries. 
         </p>
       </div>
         )
