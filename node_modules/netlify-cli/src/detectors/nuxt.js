@@ -1,6 +1,8 @@
 const { hasRequiredDeps, hasRequiredFiles, getYarnOrNPMCommand, scanScripts } = require('./utils/jsdetect')
 
-module.exports = function() {
+const FRAMEWORK_PORT = 3000
+
+module.exports = function detector() {
   // REQUIRED FILES
   if (!hasRequiredFiles(['package.json'])) return false
   // REQUIRED DEPS
@@ -9,23 +11,15 @@ module.exports = function() {
   /** everything below now assumes that we are within vue */
 
   const possibleArgsArrs = scanScripts({
-    preferredScriptsArr: ['start', 'dev', 'run'],
-    preferredCommand: 'nuxt start'
+    preferredScriptsArr: ['dev', 'start'],
+    preferredCommand: 'nuxt',
   })
 
-  if (possibleArgsArrs.length === 0) {
-    // ofer to run it when the user doesnt have any scripts setup! 🤯
-    possibleArgsArrs.push(['nuxt', 'start'])
-  }
-
   return {
-    type: 'yarn',
+    framework: 'nuxt',
     command: getYarnOrNPMCommand(),
-    port: 8888,
-    proxyPort: 3000,
-    env: { ...process.env },
+    frameworkPort: FRAMEWORK_PORT,
     possibleArgsArrs,
-    urlRegexp: new RegExp(`(http://)([^:]+:)${3000}(/)?`, 'g'),
-    dist: '.nuxt'
+    dist: 'dist',
   }
 }

@@ -87,7 +87,7 @@ export class Projects extends Component {
         </div>
         </Link>
     </div>
-    <div class="row">
+    {/* <div class="row">
         <Link to="/projects/expensetracker">
              <div class="column">
             <div class="project expense-container">
@@ -99,20 +99,20 @@ export class Projects extends Component {
             <br></br>
             </div>
         </div>
-        </Link>
-        <Link to="/projects/twitterbot">
+        </Link> */}
+        {/* <Link to="/projects/twitterbot">
              <div class="column">
             <div class="project twitter-container">
             <img class="project hoverable twitter-image" src={TwitterBot} alt="TwitterBot"/>
             <div class="twitter-middle">
-            <p class="center twitter-text">Twitter Bot</p>
+            <p class="center twitter-text">Alibot</p>
             </div>
             <br></br>
             <br></br>
             </div>
         </div>
         </Link>
-        </div>
+        </div> */}
     <h4 class="thin">Data Analysis/Physics Projects:</h4>
     <div class="row">
     <a href = {Lab2} target="_blank" rel="noopener noreferrer" class="thin black-text">
