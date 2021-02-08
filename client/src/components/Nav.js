@@ -19,7 +19,7 @@ export class Nav extends Component {
             <li class="desktop-only"><Link to="/projects" class="thin black-text">Projects</Link></li>
             <li class="desktop-only"><a href = {Pdf} target="_blank" rel="noopener noreferrer" class="thin black-text">Resume</a></li>
             <li class="desktop-only"><a href = "https://kpobrien4.github.io/" target="_blank" rel="noopener noreferrer" class="thin black-text">Blog</a></li>
-            <li class="desktop-only"><Link to="/music" class="thin black-text">Music</Link></li>
+            {/* <li class="desktop-only"><Link to="/music" class="thin black-text">Music</Link></li> */}
             <li class="desktop-only"><Link to="/contact" class="thin black-text">Contact</Link></li>
           </ul>
           

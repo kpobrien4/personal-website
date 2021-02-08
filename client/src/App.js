@@ -31,7 +31,7 @@ class App extends Component {
           <Route exact path="/about" component={About} />
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/contact" component={Contact} />
-          <Route exact path="/music" component={Music} />
+          {/* <Route exact path="/music" component={Music} /> */}
           <Route exact path="/projects/symbiosound" component={SymbioSound} />
           <Route exact path="/projects/tracknotes" component={TrackNotes} />
           <Route exact path="/projects/equationsheetgenerator" component={EquationSheetGenerator} />
