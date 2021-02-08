@@ -27,8 +27,7 @@
     "reactstrap": "^8.9.0",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
-    "siema": "^1.5.1",
-    "webpack-dev-server": "^3.11.2"
+    "siema": "^1.5.1"
   },
   "devDependencies": {
     "emailjs-com": "^2.6.4"
