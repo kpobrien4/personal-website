@@ -72,7 +72,7 @@ export class Projects extends Component {
             </div>
         </div>
         </Link>
-        <Link to="/projects/charityroulette">
+        {/* <Link to="/projects/charityroulette">
         <div>
         <div class="column">
             <div class="project charity-container">
@@ -85,7 +85,7 @@ export class Projects extends Component {
             </div>
             </div>
         </div>
-        </Link>
+        </Link> */}
     </div>
     {/* <div class="row">
         <Link to="/projects/expensetracker">

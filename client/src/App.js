@@ -35,7 +35,7 @@ class App extends Component {
           <Route exact path="/projects/symbiosound" component={SymbioSound} />
           <Route exact path="/projects/tracknotes" component={TrackNotes} />
           <Route exact path="/projects/equationsheetgenerator" component={EquationSheetGenerator} />
-          <Route exact path="/projects/charityroulette" component={CharityRoulette} />
+          {/* <Route exact path="/projects/charityroulette" component={CharityRoulette} /> */}
           {/* <Route exact path="/projects/expensetracker" component={ExpenseTracker} />
           <Route exact path="/projects/twitterbot" component={TwitterBot} /> */}
           <Route component={Errors} />
