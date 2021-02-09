@@ -1,13 +1,12 @@
 import React, { Component } from 'react'
 import llogo from '../images/llogo.png'
 import glogo from '../images/glogo.png'
-
+import '../footer.css'
 
 export class Footer extends Component {
   render() {
     return (
         <footer class="page-footer white">
-            <hr></hr>
         <div class="container center">
           <div class="row">
             <div class="col l6 s12">
@@ -24,7 +23,7 @@ export class Footer extends Component {
         </div>
         <div class="footer-copyright">
           <div style={{color:"black"}} class="container">
-          © 2019 Kevin O'Brien
+          © 2021 Kevin O'Brien
           </div>
         </div>
       </footer>

@@ -228,7 +228,7 @@
   bottom:130px;
   left:0px;
   visibility:hidden;
-  color: black
+  color: white
   }
   
   .project:hover .symbio-text {
@@ -242,7 +242,7 @@
     bottom:130px;
     left:0px;
     visibility:hidden;
-    color: black
+    color: white
     }
     
     .project:hover .track-text {
@@ -256,7 +256,7 @@
       bottom:145px;
       left:0px;
       visibility:hidden;
-      color: black
+      color: white
       }
       
       .project:hover .equation-text {
@@ -270,7 +270,7 @@
         bottom:130px;
         left:0px;
         visibility:hidden;
-        color: black
+        color: white
         }
         
         .project:hover .charity-text {
@@ -285,7 +285,7 @@
           bottom:130px;
           left:0px;
           visibility:hidden;
-          color: black
+          color: white
           }
           
   .project:hover .expense-text {
@@ -300,7 +300,7 @@
           bottom:130px;
           left:0px;
           visibility:hidden;
-          color: black
+          color: white
           }
           
   .project:hover .pulsed-text {
@@ -315,7 +315,7 @@
           bottom:130px;
           left:0px;
           visibility:hidden;
-          color: black
+          color: white
           }
           
   .project:hover .hall-text {
@@ -332,7 +332,7 @@
           bottom:130px;
           left:0px;
           visibility:hidden;
-          color: black
+          color: white
           }
           
   .project:hover .optical-text {
@@ -348,7 +348,7 @@
           bottom:145px;
           left:0px;
           visibility:hidden;
-          color: black
+          color: white
           }
           
   .project:hover .twitter-text {
@@ -362,7 +362,7 @@
           bottom:130px;
           left:0px;
           visibility:hidden;
-          color: black
+          color: white
           }
           
   .project:hover .fluor-text {
@@ -388,3 +388,4 @@
   p {
       color: black
   }
+

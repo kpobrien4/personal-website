@@ -22,6 +22,7 @@ class App extends Component {
   
   render(){
   return (
+    <div className="blue-grey darken-4 white-text">
     <HashRouter hashType="noslash">
       <Nav />
       <Sidenav />
@@ -45,6 +46,7 @@ class App extends Component {
       <br></br>
       <Footer />
     </HashRouter>
+    </div>
   );
   }
 }
