@@ -1,13 +1,13 @@
 *[type=text]{
-    color: black
+    color: white
 }
 
 *[type=email] {
-    color: black
+    color: white
 }
 
-.textarea {
-    color: black
+textarea {
+    color: white !important;
 }
 
 
@@ -21,4 +21,8 @@
 *[type=submit] {
     color: white;
     background-color: black
+}
+
+input::placeholder {
+    opacity: 50%;
 }
