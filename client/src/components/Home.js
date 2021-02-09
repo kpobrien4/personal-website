@@ -13,11 +13,14 @@ export class Home extends Component {
   }
   render() {
     return (
-      <div className="container home">
+      <div className="">
         <h1 class="center home1"><img style={this.state.loaded ? {} : {display: 'none'}} src={fatherOfTheYear} width="250" height="250" alt="Me" onLoad={() => this.setState({loaded: true})}/></h1>
-        <h3 class="center white-text thin home3">Full Stack Web Developer</h3>
+        <h2 class="center white-text thin home3">Full Stack Web Developer</h2>
+        <h5 class="center white-text thin">A developer eager to create quality software that can improve the lives of others</h5>
         <br></br>
         {/* <Quotes /> */}
+        {/* <hr></hr> */}
+        {/* <h2 class="center white-text thin">Skills</h2> */}
       </div>
     )
   }
