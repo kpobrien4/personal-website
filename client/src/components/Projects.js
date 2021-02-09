@@ -34,7 +34,7 @@ export class Projects extends Component {
         <div class="row">
         <Link to="/projects/symbiosound">
              <div class="column">
-            <div class="project symbio-container">
+            <div class="project symbio-container projectfade">
             <img class="project hoverable symbio-image" src={SymbioSound} alt="SymbioSound"/>
             <div class="symbio-middle">
             <p class="center symbio-text">SymbioSound</p>
@@ -47,7 +47,7 @@ export class Projects extends Component {
         <Link to="/projects/tracknotes">
         <div>
         <div class="column">
-            <div class="project track-container">
+            <div class="project track-container projectfade">
             <img class="project hoverable track-image" src={TrackNotes} alt="ProjectNotes"/>
             <div class="track-middle">
             <p class="center track-text">ProjectNotes</p>
@@ -61,7 +61,7 @@ export class Projects extends Component {
         <Link to="/projects/equationsheetgenerator">
         <div>
         <div class="column">
-            <div class="project equation-container">
+            <div class="project equation-container projectfade">
             <img class="project hoverable equation-image" src={EquationSheetGenerator} alt="Equation Sheet Generator"/>
             <div class="equation-middle">
             <p class="center equation-text">Equation Sheet Generator</p>
@@ -117,7 +117,7 @@ export class Projects extends Component {
     <div class="row">
     <a href = {Lab2} target="_blank" rel="noopener noreferrer" class="thin black-text">
              <div class="column">
-            <div class="project pulsed-container">
+            <div class="project pulsed-container projectfade">
             <img class="project hoverable pulsed-image" src={PulsedNMR} alt="PulsedNMR"/>
             <div class="pulsed-middle">
             <p class="center pulsed-text">Pulsed NMR</p>
@@ -129,7 +129,7 @@ export class Projects extends Component {
         </a>
         <a href = {Lab3} target="_blank" rel="noopener noreferrer" class="thin black-text">
              <div class="column">
-            <div class="project hall-container">
+            <div class="project hall-container projectfade">
             <img class="project hoverable hall-image" src={HallEffect} alt="HallEffect"/>
             <div class="hall-middle">
             <p class="center hall-text">Hall Effect</p>
@@ -141,7 +141,7 @@ export class Projects extends Component {
         </a>
         <a href = {Lab1} target="_blank" rel="noopener noreferrer" class="thin black-text">
              <div class="column">
-            <div class="project optical-container">
+            <div class="project optical-container projectfade">
             <img class="project hoverable optical-image" src={OpticalSpectroscopy} alt="OpticalSpectroscopy"/>
             <div class="optical-middle">
             <p class="center optical-text">Optical Spectroscopy</p>
@@ -153,7 +153,7 @@ export class Projects extends Component {
         </a>
         <a href = {Lab4} target="_blank" rel="noopener noreferrer" class="thin black-text">
              <div class="column">
-            <div class="project fluor-container">
+            <div class="project fluor-container projectfade">
             <img class="project hoverable fluor-image" src={FluorescenceMicroscopy} alt="FluorescenceMicroscopy"/>
             <div class="fluor-middle">
             <p class="center fluor-text">Fluorescence Microscopy</p>

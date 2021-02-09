@@ -19,8 +19,8 @@ export class Home extends Component {
         <h5 class="center quote-box white-text thin">A developer eager to create quality software that can improve the lives of others</h5>
         <br></br>
         {/* <Quotes /> */}
-        {/* <hr></hr> */}
-        {/* <h2 class="center white-text thin">Skills</h2> */}
+        {/* <hr></hr> 
+        <h2 class="center quote-box white-text thin">Skills</h2> */}
       </div>
     )
   }
