@@ -4,6 +4,11 @@ import Graduation from "../images/graduation.png"
 
 export class About extends Component {
 
+  constructor(){
+    super();
+    this.state = {loaded: false};
+  }
+
   render() {
     return (
       <div>
@@ -11,7 +16,7 @@ export class About extends Component {
         <h3 class="thin about">About Me</h3>
         </div>
         <p className="thin text-white">Hello treasured reader! My name is Kevin and I'm a software engineer, physicist, and musician from upstate New York. I graduated from the University at Buffalo in May of 2019 with a degree in Physics, and immediately attended Flatiron School, an immersive five month coding school in the field of software development where I learned and built projects with coding languages such as ruby (including rails), JavaScript, SQL, HTML, CSS, React.js, Redux, and more. I have since been working on a myriad of software projects, one of which is this very website! My goal is to create software, or work for a company that creates software with the aim of making a large impact on solving problems for people in need. I hope to be an inspiring and creative developer, who is always striving to learn and teach others. My current short term goals outside of work are to complete the courses in which I am enrolled to learn Python and Linux, and in the long term to enroll in graduate school in either physics or computer science.</p>
-        <p><img src={Graduation} alt="graduation" class="responsive-img graduation" width="350px" align="left"></img></p>
+        <p><img src={Graduation} style={this.state.loaded ? {} : {display: 'none'}} alt="graduation" class="responsive-img graduation" width="350px" align="left" onLoad={() => this.setState({loaded: true})}></img></p>
         <p className="thin text-white">My introduction to coding came in around 2016, at the onset of my college career, with a video called "What Most Schools Don't Teach" which featured the likes of tech household names such as Bill Gates, Mark Zuckerberg and Jack Dorsey, and those less known for their coding exploits like Will.I.Am of the Black Eyed Peas talking about their experiences with computer programming. Though I did not rush to coding immediately after watching the video, I downloaded a couple of tutorials, and kept the idea of learning code in the back of my mind. After finishing my degree in Physics, I opted to change my route and enroll in Flatiron School, as the versatility and creativity I had seen in software development were incredibly appealing to me, and I have now grown into a knowledge hungry developer. My love for physics still remains, and if anything enhances my coding abilities.
         </p>
         <p className="thin text-white">
