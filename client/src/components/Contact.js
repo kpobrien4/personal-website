@@ -46,7 +46,7 @@ handleChange = (param, e) => {
 render() {
     return (
       <>
-          <h3 className="p-heading1" class="thin">Get in Touch</h3>
+          <h3 className="p-heading1" class="thin">Get in Touch!</h3>
           <Form onSubmit={this.handleSubmit.bind(this)}>
             <FormGroup controlId="formBasicEmail">
               <Label className="text-muted">Email</Label>
