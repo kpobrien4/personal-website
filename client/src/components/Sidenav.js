@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import M from "materialize-css/dist/js/materialize.min.js";
-import Pdf from '../KOBRES.pdf'
+import Pdf from '../kevinobrienresume.pdf'
 import "materialize-css/dist/css/materialize.min.css";
 
 

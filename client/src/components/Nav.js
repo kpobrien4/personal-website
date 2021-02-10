@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
-import Pdf from '../KOBRES.pdf'
+import Pdf from '../kevinobrienresume.pdf'
 import "materialize-css/dist/css/materialize.min.css";
 import '../nav.css'
 
