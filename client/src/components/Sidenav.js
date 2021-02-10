@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import M from "materialize-css/dist/js/materialize.min.js";
-import Pdf2 from '../kevinobrienresume.pdf'
+import Pdf from '../kevinobrienresume.pdf'
 import "materialize-css/dist/css/materialize.min.css";
 
 
@@ -25,7 +25,7 @@ componentDidMount(){
         <hr></hr>
             <li><Link to="/about" class="thin black-text sidenav-close">About</Link></li>
             <li><Link to="/projects" class="thin black-text sidenav-close">Projects</Link></li>
-            <li><a href = {Pdf2} target="_blank" rel="noopener noreferrer" class="thin black-text sidenav-close">Resume</a></li>
+            <li><a href = {Pdf} target="_blank" rel="noopener noreferrer" class="thin black-text sidenav-close">Resume</a></li>
             {/* <li><a href = "https://kpobrien4.github.io/" target="_blank" rel="noopener noreferrer" class="thin black-text sidenav-close">Blog</a></li> */}
             {/* <li><Link to="/music" class="thin black-text sidenav-close">Music</Link></li> */}
             <li><Link to="/contact" class="thin black-text sidenav-close">Contact</Link></li>
