@@ -22,6 +22,8 @@
         -ms-animation: fadein 2s; /* Internet Explorer */
          -o-animation: fadein 2s; /* Opera < 12.1 */
             animation: fadein 2s;
+
+            padding-bottom: 30px;
 }
 
 
